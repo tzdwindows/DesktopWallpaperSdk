@@ -35,23 +35,3 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
-// 添加生成 Javadoc 的任务
-tasks.withType(Javadoc) {
-    // 配置 Javadoc 输出目录
-    destinationDir = file("$buildDir/javadoc")
-    // 包含注解文档
-    options.addStringOption('Xdoclint:none', '-quiet')
-}
-
-// 创建一个 javadoc JAR 任务来打包生成的 Javadoc 文档
-task javadocJar(type: Jar) {
-    dependsOn javadoc
-    from javadoc.destinationDir
-    archiveClassifier.set('javadoc')
-}
-
-// 将 Javadoc JAR 包含到构建产物中
-artifacts {
-    archives javadocJar
-}

@@ -1,4 +1,4 @@
-# DesktopWallpaperSdk
+# DesktopWallpaperAPI
 
 > **动态桌面渲染工具，支持多种渲染方式，适配最新 Windows 平台。**
 
@@ -6,7 +6,7 @@
 
 ## 项目简介
 
-**DesktopWallpaperSdk** 是一款高效的桌面壁纸动态渲染工具，支持以下特性：
+**DesktopWallpaperAPI** 是一款高效的桌面壁纸动态渲染工具，支持以下特性：
 
 - **渲染方式**：
     - OpenGL 渲染
@@ -58,7 +58,7 @@
 class NativeLibraryLoader {
     public static void main(String[] args) {
         // 加载动态链接库
-        System.loadLibrary("DesktopWallpaperSdk");
+        System.loadLibrary("DesktopWallpaperAPI");
 
         // 得到桌面窗口句柄
         final long[] hwnd = new long[1];
@@ -87,7 +87,7 @@ class NativeLibraryLoader {
 
 ## 协议声明
 
-**DesktopWallpaperSdk 遵循 [GNU General Public License (GPL) ](https://www.gnu.org/licenses/gpl-3.0.en.html ) 开源协议。这意味着：**
+**DesktopWallpaperAPI 遵循 [GNU General Public License (GPL) ](https://www.gnu.org/licenses/gpl-3.0.en.html ) 开源协议。这意味着：**
 - 您可以自由地运行、研究、修改和分发本项目的源代码。
 - 修改后发布的版本需继承本项目的 GPL 协议并开源。
 

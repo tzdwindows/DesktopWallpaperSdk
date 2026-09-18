@@ -94,10 +94,3 @@ class NativeLibraryLoader {
 **注意：如果您的使用场景有特殊需求，请确保符合协议条款。**
 
 ---
-
-## 联系作者
-如有疑问或建议，欢迎通过以下方式联系：
-- 邮箱：[3076584115@qq.com](mailto:3076584115@qq.com)
-- 哔哩哔哩：[Finbov_Dushb](https://b23.tv/BkZEhRz)
-- GitHub：[tzdwindows 7](https://github.com/tzdwindows)
-- QQ群：[余胜军小卖部](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=UqHG8X393i8PEovz6BxgLdL7La5O4Mmw&authKey=I5DVBI%2Byep1COym6dpL956py9RhKkxg7wFJmeam6woQOhciAMY%2Bhhw7%2F5ffdm6L4&noverify=0&group_code=852270618)
